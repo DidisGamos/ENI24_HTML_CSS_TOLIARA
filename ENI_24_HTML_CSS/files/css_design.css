@@ -131,10 +131,3 @@ main .info-box-3 .word-box-2 .para{
     margin-top: 80px;
     padding-right: 120px;
 }
-
-@media only screen and (max-width: 750px){
-    body{
-        flex-direction: column;
-    }
-
-}
