@@ -19,6 +19,7 @@ header{
     background-size: cover;
 }
 header .logo{
+    display: flex;
     position: absolute;
     margin: 50px 260px;
 }
