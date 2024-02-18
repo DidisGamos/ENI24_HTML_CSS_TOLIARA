@@ -19,7 +19,6 @@ header{
     background-size: cover;
 }
 header .logo{
-    display: flex;
     position: absolute;
     margin: 50px 260px;
 }
@@ -130,4 +129,10 @@ main .info-box-3 .word-box-2 .para{
     gap: 40px;
     margin-top: 80px;
     padding-right: 120px;
+}
+
+@media only screen and (max-width: 750px){
+    body{
+        flex-direction: column;
+    }
 }
