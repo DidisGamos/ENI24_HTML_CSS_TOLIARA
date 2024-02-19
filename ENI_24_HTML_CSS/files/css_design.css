@@ -91,9 +91,9 @@ main .info-box-3{
     justify-content: center;
 }
 main .info-box-3 .word-box-1{
-    position: relative;
-    margin-top: 150px;
-    padding-left: 180px;
+    position: absolute;
+    margin-right: 530px;
+    margin-top: 140px;
 }
 main .info-box-3 .word-box-1 .info0{
     display: block;
@@ -112,22 +112,23 @@ main .info-box-3 .word-box-1 .info1 span{
 }
 main .info-box-3 .word-box-1 .logo-1{
     display: flex;
-    margin-top: 200px;
+    margin-top: 150px;
     padding-bottom: 100px;
 }
 main .info-box-3 .word-box-2{
     position: relative;
     margin-top: 80px;
+    padding-left: 500px;
 }
 main .info-box-3 .word-box-2 .menu{
-    width: 55%;
-    left: 50px;
-    margin-top: 30px;
+    display: flex;
+    width: 45%;
+    margin-left: 350px;
 }
 main .info-box-3 .word-box-2 .para{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 80px;
-    padding-right: 120px;
+    margin-top: 50px;
+    margin-left: 280px;
 }
