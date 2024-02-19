@@ -14,18 +14,19 @@ body{
 /* headers */
 header{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: url("../assets/Background.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 header .logo{
     position: absolute;
-    margin: 50px 260px;
+    margin: 50px 200px;
 }
 header .info-box{
     display: flex;
     justify-content: flex-end;
-    margin-right: 260px;
+    margin-right: 170px;
     padding-top: 40px;
     gap: 20px;
 }
@@ -54,6 +55,7 @@ header span{
 }
 /* second head */
 .info-box-2{
+    position: absolute;
     text-align: center;
     margin-top: 30px;
 }
@@ -76,8 +78,8 @@ header span{
     padding: 20px;
 }
 .info-box-2 .code-1{
-    width: 64.5%;
-    margin-top: 10px;
+    width: 75%;
+    margin-top: 27px;
 }
 /* main */
 main{
@@ -89,8 +91,9 @@ main .info-box-3{
     justify-content: center;
 }
 main .info-box-3 .word-box-1{
+    position: relative;
     margin-top: 150px;
-    margin-left: 100px;
+    padding-left: 180px;
 }
 main .info-box-3 .word-box-1 .info0{
     display: block;
@@ -109,7 +112,6 @@ main .info-box-3 .word-box-1 .info1 span{
 }
 main .info-box-3 .word-box-1 .logo-1{
     display: flex;
-    justify-content: flex-start;
     margin-top: 200px;
     padding-bottom: 100px;
 }
@@ -118,10 +120,9 @@ main .info-box-3 .word-box-2{
     margin-top: 80px;
 }
 main .info-box-3 .word-box-2 .menu{
-    display: flex;
-    justify-content: flex-end;
-    width: 60%;
-    margin-left: 55px;
+    width: 55%;
+    left: 50px;
+    margin-top: 30px;
 }
 main .info-box-3 .word-box-2 .para{
     display: flex;
