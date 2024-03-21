@@ -53,6 +53,9 @@ header .info-box .infos{
     border-radius: 7px;
     font-size: 14.5px;
 }
+header .info-box .menu-bx{
+    display: none;
+}
 header span{
     color: white;
 }
@@ -132,13 +135,44 @@ main .info-box-4 .para{
     margin-top: 50px;
     padding-bottom: 50px;
 }
+@media only screen and (max-width: 860px){
+    main .info-box-3 {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            padding: 0;
+        }
+    main .info-box-3 .word-box-1{
+        margin-left: 100px;
+    }
+    main .info-box-3 img{
+        margin-left: 150px;
+    }
+}
+@media only screen and (max-width: 805px){
+    .search-box{
+        display: none;
+    }
+    header .info-box .menu-bx{
+        display: block;
+        margin-right: 100px;
+    }
+    header .info-box .logo{
+        display: block;
+        margin-left: 50px;
+    }
+}
+
 @media only screen and (max-width: 600px){
     .search-box{
         display: none;
     }
+    header .info-box .menu-bx{
+        display: block;
+    }
     header .info-box .logo{
-        top: 5px;
-        left: 5px;
+        display: block;
+        margin-left: 20px;
     }
     .code-1{
         width: 100%;
@@ -146,6 +180,7 @@ main .info-box-4 .para{
     main .info-box-3{
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
     }
     main .info-box-4{
         display: flex;
@@ -153,5 +188,8 @@ main .info-box-4 .para{
     }
     main .info-box-4 .logo-1{
         width: 150px;
+    }
+    main .info-box-4 .para{
+        justify-content: center;
     }
 }
