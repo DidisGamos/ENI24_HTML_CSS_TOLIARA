@@ -88,7 +88,6 @@ header span{
 main{
     width: 100%;
     height: auto;
-    overflow: hidden;
 }
 main .info-box-3{
     display: flex;
@@ -99,7 +98,7 @@ main .info-box-3 .word-box-1{
     margin-top: 100px;
 }
 main .info-box-3 img{
-    width: 30%;
+    width: 450px;
     margin-top: 50px;
     margin-right: 185px;
 }
@@ -133,7 +132,7 @@ main .info-box-4 .para{
     margin-top: 50px;
     padding-bottom: 50px;
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
     .search-box{
         display: none;
     }
@@ -144,7 +143,15 @@ main .info-box-4 .para{
     .code-1{
         width: 100%;
     }
-    main{
+    main .info-box-3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main .info-box-4{
+        display: flex;
         flex-direction: column;
+    }
+    main .info-box-4 .logo-1{
+        width: 150px;
     }
 }
